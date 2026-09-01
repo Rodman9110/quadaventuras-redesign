@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quadaventuras · Actividades de ocio y aventura en Galicia</title>
+<meta name="description" content="Quads, rafting, paintball, karting, parapente y mucho más. Vive experiencias inolvidables en Galicia con Quadaventuras: particulares, empresas, despedidas y ayuntamientos.">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Ir al contenido</a>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a href="#inicio" class="brand">
+      <img src="img/logo-quadaventuras.svg" alt="Quadaventuras" class="brand-logo">
+    </a>
+
+    <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+      <ul>
+        <li><a href="#actividades">Actividades</a></li>
+        <li><a href="#categorias">Tierra · Mar · Aire</a></li>
+        <li><a href="#para-quien">Empresas</a></li>
+        <li><a href="#despedidas">Despedidas</a></li>
+        <li><a href="#packs">Packs</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a href="tel:+34638918471" class="header-phone">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 2 .7 3a2 2 0 0 1-.4 2.1L8 10.2a16 16 0 0 0 6 6l1.4-1.4a2 2 0 0 1 2-.5c1 .4 2 .6 3 .7a2 2 0 0 1 1.7 2z"/></svg>
+        <span>638 918 471</span>
+      </a>
+      <a href="#contacto" class="btn btn-primary btn-sm">Reservar ahora</a>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg" aria-hidden="true">
+      <span class="blob blob-1"></span>
+      <span class="blob blob-2"></span>
+      <span class="blob blob-3"></span>
+      <svg class="hero-grid" width="100%" height="100%" aria-hidden="true"><defs><pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="rgba(255,255,255,.08)"/></pattern></defs><rect width="100%" height="100%" fill="url(#grid)"/></svg>
+    </div>
+
+    <div class="container hero-inner">
+      <p class="eyebrow reveal">Turismo activo en Galicia desde hace más de 15 años</p>
+      <h1 class="reveal">Vive aventuras que <span class="hl">no se olvidan</span></h1>
+      <p class="hero-lead reveal">Quads, rafting, paintball, karting, parapente, despedidas de soltero/a, incentivos de empresa… más de 40 actividades por tierra, mar y aire, con monitores cualificados y todos los permisos en regla.</p>
+
+      <div class="hero-cta reveal">
+        <a href="#actividades" class="btn btn-primary btn-lg">Ver actividades</a>
+        <a href="#contacto" class="btn btn-ghost btn-lg">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 2 .7 3a2 2 0 0 1-.4 2.1L8 10.2a16 16 0 0 0 6 6l1.4-1.4a2 2 0 0 1 2-.5c1 .4 2 .6 3 .7a2 2 0 0 1 1.7 2z"/></svg>
+          Pide presupuesto
+        </a>
+      </div>
+
+      <dl class="hero-stats reveal">
+        <div><dt>+15</dt><dd>años de experiencia</dd></div>
+        <div><dt>+40</dt><dd>actividades distintas</dd></div>
+        <div><dt>+8.000</dt><dd>aventureros felices</dd></div>
+        <div><dt>100%</dt><dd>permisos oficiales</dd></div>
+      </dl>
+    </div>
+
+    <a href="#categorias" class="scroll-cue" aria-label="Bajar a la siguiente sección">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </a>
+  </section>
+
+  <!-- ============ MARCAS DE CONFIANZA / PERMISOS ============ -->
+  <section class="trust-strip">
+    <div class="container trust-inner">
+      <span>Trabajamos con todas las autorizaciones oficiales:</span>
+      <ul>
+        <li>Xunta de Galicia</li>
+        <li>Aviación Civil</li>
+        <li>Autoridades Marítimas</li>
+        <li>Seprona</li>
+        <li>Ayuntamientos</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ CATEGORÍAS ============ -->
+  <section class="section" id="categorias">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Elige tu elemento</p>
+        <h2>Tierra, mar y aire: la aventura entera</h2>
+        <p class="section-lead">Desde rutas en quad por el monte gallego hasta saltar en paracaídas sobre la costa. Sea cual sea tu elemento, tenemos la actividad perfecta.</p>
+      </div>
+
+      <div class="cat-grid">
+        <a href="#actividades" class="cat-card reveal" data-filter="tierra">
+          <div class="cat-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M13 30l4-9c.6-1.3 1.9-2.2 3.4-2.2h7.2c1.5 0 2.8.9 3.4 2.2l4 9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="16" cy="31" r="3.6" stroke="currentColor" stroke-width="2.2"/><circle cx="32" cy="31" r="3.6" stroke="currentColor" stroke-width="2.2"/><path d="M8 31h3M37 31h3" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Tierra</h3>
+          <p>Quads, buggies, karts, paintball, rutas 4x4, rutas a caballo y más adrenalina sobre ruedas.</p>
+          <span class="cat-link">Ver actividades <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </a>
+
+        <a href="#actividades" class="cat-card reveal" data-filter="mar">
+          <div class="cat-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M6 34c3 0 3-3 6-3s3 3 6 3 3-3 6-3 3 3 6 3 3-3 6-3 3 3 6 3" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 26c3 0 3-3 6-3s3 3 6 3 3-3 6-3 3 3 6 3 3-3 6-3 3 3 6 3" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity=".5"/><path d="M24 20V9M18 12l6-3 6 3" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Mar</h3>
+          <p>Rafting, kayak, buceo, kitesurf, motos de agua y travesías en velero por la costa gallega.</p>
+          <span class="cat-link">Ver actividades <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </a>
+
+        <a href="#actividades" class="cat-card reveal" data-filter="aire">
+          <div class="cat-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 6c7 5 10 12 10 20a10 10 0 0 1-20 0c0-8 3-15 10-20z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M24 26v16M18 42h12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Aire</h3>
+          <p>Parapente, paracaidismo, puenting, globo aerostático y vuelos en avioneta o helicóptero.</p>
+          <span class="cat-link">Ver actividades <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ACTIVIDADES DESTACADAS ============ -->
+  <section class="section section-alt" id="actividades">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Catálogo</p>
+        <h2>Actividades destacadas</h2>
+        <p class="section-lead">Una selección de nuestras experiencias más pedidas. Consúltanos si buscas algo distinto: tenemos más de 40 actividades disponibles.</p>
+      </div>
+
+      <div class="filter-tabs reveal" role="tablist" aria-label="Filtrar actividades">
+        <button class="filter-btn is-active" data-filter="todas">Todas</button>
+        <button class="filter-btn" data-filter="tierra">Tierra</button>
+        <button class="filter-btn" data-filter="mar">Mar</button>
+        <button class="filter-btn" data-filter="aire">Aire</button>
+      </div>
+
+      <div class="activity-grid" id="activity-grid">
+        <!-- TIERRA -->
+        <article class="activity-card reveal" data-cat="tierra">
+          <div class="activity-icon icon-tierra"><svg viewBox="0 0 48 48" fill="none"><path d="M13 30l4-9c.6-1.3 1.9-2.2 3.4-2.2h7.2c1.5 0 2.8.9 3.4 2.2l4 9" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="16" cy="31" r="3.6" stroke="currentColor" stroke-width="2.2"/><circle cx="32" cy="31" r="3.6" stroke="currentColor" stroke-width="2.2"/></svg></div>
+          <h3>Quads</h3>
+          <p>Rutas guiadas por pistas de monte y bosque gallego. Grupos, particulares y despedidas.</p>
+          <span class="tag">Tierra</span>
+        </article>
+
+        <article class="activity-card reveal" data-cat="tierra">
+          <div class="activity-icon icon-tierra"><svg viewBox="0 0 48 48" fill="none"><rect x="8" y="20" width="32" height="10" rx="3" stroke="currentColor" stroke-width="2.2"/><circle cx="15" cy="34" r="3.4" stroke="currentColor" stroke-width="2.2"/><circle cx="33" cy="34" r="3.4" stroke="currentColor" stroke-width="2.2"/><path d="M12 20l3-6h18l3 6" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg></div>
+          <h3>Karting</h3>
+          <p>Circuitos con cronometraje y ranking final. Ideal para despedidas y eventos de empresa.</p>
+          <span class="tag">Tierra</span>
+        </article>
+
+        <article class="activity-card reveal" data-cat="tierra">
+          <div class="activity-icon icon-tierra"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="15" stroke="currentColor" stroke-width="2.2"/><circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="2.2"/><circle cx="24" cy="24" r="2.4" fill="currentColor"/></svg></div>
+          <h3>Paintball</h3>
+          <p>Escenarios de guerra táctica en plena naturaleza. Equipo completo incluido.</p>
+          <span class="tag">Tierra</span>
+        </article>
+
+        <article class="activity-card reveal" data-cat="tierra">
+          <div class="activity-icon icon-tierra"><svg viewBox="0 0 48 48" fill="none"><path d="M14 34l4-14c.5-1.7 2-3 3.8-3h4.4c1.8 0 3.3 1.3 3.8 3l4 14" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="10" r="3.4" stroke="currentColor" stroke-width="2.2"/><path d="M10 34h28" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></div>
+          <h3>Rutas a caballo</h3>
+          <p>Paseos por playas y senderos naturales para todos los niveles.</p>
+          <span class="tag">Tierra</span>
+        </article>
+
+        <article class="activity-card reveal" data-cat="tierra">
+          <div class="activity-icon icon-tierra"><svg viewBox="0 0 48 48" fill="none"><path d="M6 36l9-16 6 8 5-7 16 15" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="34" cy="10" r="3.6" stroke="currentColor" stroke-width="2.2"/></svg></div>
+          <h3>Rutas 4x4</h3>
+          <p>Off-road por pistas forestales con guía experto. Descubre rincones únicos de Galicia.</p>
+          <span class="tag">Tierra</span>
+        </article>
+
+        <article class="activity-card reveal" data-cat="tierra">
+          <div class="activity-icon icon-tierra"><svg viewBox="0 0 48 48" fill="none"><path d="M8 40c4-14 8-22 16-22s12 8 16 22" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M16 40c2-8 4-13 8-13s6 5 8 13" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3>Gincanas y aventura GPS</h3>
+          <p>Retos en equipo con pruebas, pistas y navegación por GPS. Perfecto para grupos grandes.</p>
+          <span class="tag">Tierra</span>
+        </article>
+
+        <!-- MAR -->
+        <article class="activity-card reveal" data-cat="mar">
+          <div class="activity-icon icon-mar"><svg viewBox="0 0 48 48" fill="none"><path d="M8 14h32l-4 20a4 4 0 0 1-4 3H16a4 4 0 0 1-4-3L8 14z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M16 14V9a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5" stroke="currentColor" stroke-width="2.2"/></svg></div>
+          <h3>Rafting</h3>
+          <p>Descenso en aguas bravas con equipo de seguridad y guías titulados.</p>
+          <span class="tag">Mar</span>
+        </article>
+
+        <article class="activity-card reveal" data-cat="mar">
+          <div class="activity-icon icon-mar"><svg viewBox="0 0 48 48" fill="none"><path d="M6 30l14-14 22 14-8 8-14-4-6 6z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+          <h3>Kayak y piraguas</h3>
+          <p>Rutas guiadas por rías y costa gallega, con salidas para todos los niveles.</p>
+          <span class="tag">Mar</span>
+        </article>
+
+        <article class="activity-card reveal" data-cat="mar">
+          <div class="activity-icon icon-mar"><svg viewBox="0 0 48 48" fill="none"><path d="M24 6c-6 8-10 13-10 20a10 10 0 0 0 20 0c0-7-4-12-10-20z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" transform="rotate(180 24 24)"/><circle cx="24" cy="18" r="3" stroke="currentColor" stroke-width="2"/></svg></div>
+          <h3>Buceo</h3>
+          <p>Bautismos y salidas guiadas para descubrir los fondos marinos gallegos.</p>
+          <span class="tag">Mar</span>
+        </article>
+
+        <article class="activity-card reveal" data-cat="mar">
+          <div class="activity-icon icon-mar"><svg viewBox="0 0 48 48" fill="none"><path d="M6 32c8-14 12-20 18-20s10 6 18 20" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 38c4 0 4-3 8-3s4 3 8 3 4-3 8-3 4 3 8 3 4-3 8-3" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></div>
+          <h3>Motos de agua</h3>
+          <p>Rutas en moto acuática por la costa con instructor y equipo homologado.</p>
+          <span class="tag">Mar</span>
+        </article>
+
+        <article class="activity-card reveal" data-cat="mar">
+          <div class="activity-icon icon-mar"><svg viewBox="0 0 48 48" fill="none"><path d="M24 4v30M24 34l-8-6M24 34l8-6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 40c4 0 4-3 8-3s4 3 8 3 4-3 8-3 4 3 8 3 4-3 8-3" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></div>
+          <h3>Kitesurf</h3>
+          <p>Iniciación y perfeccionamiento en las mejores playas para el viento gallego.</p>
+          <span class="tag">Mar</span>
+        </article>
+
+        <article class="activity-card reveal" data-cat="mar">
+          <div class="activity-icon icon-mar"><svg viewBox="0 0 48 48" fill="none"><path d="M10 12l24 12-10 4-4 10z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+          <h3>Travesía en velero / yate</h3>
+          <p>Navega la ría con patrón profesional. Ideal para despedidas y eventos vip.</p>
+          <span class="tag">Mar</span>
+        </article>
+
+        <!-- AIRE -->
+        <article class="activity-card reveal" data-cat="aire">
+          <div class="activity-icon icon-aire"><svg viewBox="0 0 48 48" fill="none"><path d="M24 4l6 14-6 4-6-4 6-14z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M24 22v20M14 42h20" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></div>
+          <h3>Parapente</h3>
+          <p>Vuelos en biplaza sobre paisajes espectaculares de la costa gallega.</p>
+          <span class="tag">Aire</span>
+        </article>
+
+        <article class="activity-card reveal" data-cat="aire">
+          <div class="activity-icon icon-aire"><svg viewBox="0 0 48 48" fill="none"><path d="M14 8l20 8-9 4 9 4-20 8V8z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg></div>
+          <h3>Salto en paracaídas</h3>
+          <p>Caída libre en tándem con instructor certificado. Una experiencia única.</p>
+          <span class="tag">Aire</span>
+        </article>
+
+        <article class="activity-card reveal" data-cat="aire">
+          <div class="activity-icon icon-aire"><svg viewBox="0 0 48 48" fill="none"><path d="M24 6a10 10 0 0 1 10 10c0 8-10 26-10 26S14 24 14 16A10 10 0 0 1 24 6z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><circle cx="24" cy="16" r="3.4" stroke="currentColor" stroke-width="2.2"/></svg></div>
+          <h3>Puenting</h3>
+          <p>Salto al vacío con arnés homologado desde puentes seleccionados por seguridad.</p>
+          <span class="tag">Aire</span>
+        </article>
+
+        <article class="activity-card reveal" data-cat="aire">
+          <div class="activity-icon icon-aire"><svg viewBox="0 0 48 48" fill="none"><path d="M24 6c7 5 10 12 10 20a10 10 0 0 1-20 0c0-8 3-15 10-20z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M24 26v16M18 42h12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></div>
+          <h3>Volar en globo</h3>
+          <p>Vuelo en globo aerostático al amanecer sobre los valles gallegos.</p>
+          <span class="tag">Aire</span>
+        </article>
+
+        <article class="activity-card reveal" data-cat="aire">
+          <div class="activity-icon icon-aire"><svg viewBox="0 0 48 48" fill="none"><path d="M4 26h26l10-8 4 2-6 8h4l-4 4H12z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/></svg></div>
+          <h3>Volar en avioneta / helicóptero</h3>
+          <p>Sobrevuela la costa gallega desde las alturas, pilotado o como pasajero.</p>
+          <span class="tag">Aire</span>
+        </article>
+      </div>
+
+      <p class="activity-more reveal">¿Buscas otra actividad? Barranquismo, zorb, humor amarillo, pilotar un fórmula 1, conducción evasiva, terror y misterio, minigolf, limusina, carruaje… <a href="#contacto">consúltanos, la tenemos.</a></p>
+    </div>
+  </section>
+
+  <!-- ============ PARA QUIÉN ============ -->
+  <section class="section" id="para-quien">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">A tu medida</p>
+        <h2>Aventura para cada ocasión</h2>
+      </div>
+
+      <div class="audience-grid">
+        <div class="audience-card reveal">
+          <div class="audience-icon"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="16" r="7" stroke="currentColor" stroke-width="2.2"/><path d="M9 40c2-9 8-14 15-14s13 5 15 14" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></div>
+          <h3>Particulares</h3>
+          <p>Vive tu propia experiencia o regala aventura: cumpleaños, aniversarios, despedidas de soltero/a o de casado/a.</p>
+        </div>
+        <div class="audience-card audience-card-highlight reveal">
+          <div class="audience-icon"><svg viewBox="0 0 48 48" fill="none"><rect x="8" y="16" width="32" height="22" rx="3" stroke="currentColor" stroke-width="2.2"/><path d="M17 16v-3a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3v3" stroke="currentColor" stroke-width="2.2"/><path d="M8 25h32" stroke="currentColor" stroke-width="2.2"/></svg></div>
+          <h3>Empresas</h3>
+          <p>Team building, incentivos y jornadas de convención que refuerzan al equipo mientras se divierten.</p>
+        </div>
+        <div class="audience-card reveal">
+          <div class="audience-icon"><svg viewBox="0 0 48 48" fill="none"><path d="M8 40V20l16-10 16 10v20" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M18 40V28h12v12" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg></div>
+          <h3>Ayuntamientos e instituciones</h3>
+          <p>Programas de ocio, dinamización turística y actividades para colectivos y clientes vip.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DESPEDIDAS BANNER ============ -->
+  <section class="banner" id="despedidas">
+    <div class="container banner-inner reveal">
+      <div class="banner-copy">
+        <p class="eyebrow eyebrow-light">Despedidas de soltero/a</p>
+        <h2>La despedida que van a recordar toda la vida</h2>
+        <p>Combina las actividades que quieras en un solo día: quads por la mañana, rafting al mediodía y fiesta en barco al atardecer. Nosotros lo organizamos todo — transporte, restaurantes, animación y shows incluidos.</p>
+        <ul class="banner-list">
+          <li>Regalo especial gratis para el novio/a</li>
+          <li>Packs a medida por ciudad: Coruña, Vigo, Santiago, Ourense, Lugo, Sanxenxo…</li>
+          <li>Organización integral: transporte, restaurantes y animación</li>
+        </ul>
+        <a href="#contacto" class="btn btn-primary btn-lg">Organizar mi despedida</a>
+      </div>
+      <div class="banner-visual" aria-hidden="true">
+        <svg viewBox="0 0 200 200" fill="none">
+          <circle cx="100" cy="100" r="92" stroke="rgba(255,255,255,.25)" stroke-width="2" stroke-dasharray="6 10"/>
+          <path d="M100 40l14 30 33 5-24 23 6 33-29-15-29 15 6-33-24-23 33-5z" fill="currentColor" opacity=".9"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ POR QUÉ ELEGIRNOS ============ -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Confianza</p>
+        <h2>¿Por qué elegir Quadaventuras?</h2>
+      </div>
+
+      <div class="feature-grid">
+        <div class="feature-item reveal">
+          <div class="feature-icon"><svg viewBox="0 0 48 48" fill="none"><path d="M24 4l16 6v12c0 11-7 18-16 22-9-4-16-11-16-22V10z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M17 24l5 5 10-11" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3>Seguridad y permisos</h3>
+          <p>Autorizados por la Xunta de Galicia, Aviación Civil, autoridades marítimas y ayuntamientos.</p>
+        </div>
+        <div class="feature-item reveal">
+          <div class="feature-icon"><svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="17" r="7" stroke="currentColor" stroke-width="2.2"/><path d="M10 40c2-9 8-14 14-14s12 5 14 14" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M33 12a7 7 0 0 1 0 10" stroke="currentColor" stroke-width="2"/></svg></div>
+          <h3>Monitores cualificados</h3>
+          <p>Equipo profesional adaptado al nivel de cada cliente, para disfrutar con total garantía.</p>
+        </div>
+        <div class="feature-item reveal">
+          <div class="feature-icon"><svg viewBox="0 0 48 48" fill="none"><path d="M6 30c8-4 12-16 18-16s10 12 18 16" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="14" r="4" stroke="currentColor" stroke-width="2.2"/><path d="M8 38h32" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></div>
+          <h3>Entornos naturales únicos</h3>
+          <p>Ríos, cascadas y costa en los mejores parajes naturales de toda Galicia.</p>
+        </div>
+        <div class="feature-item reveal">
+          <div class="feature-icon"><svg viewBox="0 0 48 48" fill="none"><path d="M24 4l4.8 9.7 10.7 1.6-7.7 7.5 1.8 10.7L24 28.5l-9.6 5 1.8-10.7-7.7-7.5 10.7-1.6z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/></svg></div>
+          <h3>Experiencias a medida</h3>
+          <p>Combinamos actividades y servicios para crear el evento perfecto, particular o corporativo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIOS ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Lo que dicen de nosotros</p>
+        <h2>Aventureros satisfechos</h2>
+      </div>
+
+      <div class="testi-grid">
+        <figure class="testi-card reveal">
+          <div class="stars" aria-hidden="true">★★★★★</div>
+          <blockquote>«Hicimos la despedida de mi hermana con quads y rafting. Organización impecable y los monitores geniales con el grupo.»</blockquote>
+          <figcaption>— Marta R., despedida de soltera en Vigo</figcaption>
+        </figure>
+        <figure class="testi-card reveal">
+          <div class="stars" aria-hidden="true">★★★★★</div>
+          <blockquote>«Contratamos una jornada de team building con gincana y paintball. El equipo salió encantado, repetiremos seguro.»</blockquote>
+          <figcaption>— Carlos M., responsable RRHH</figcaption>
+        </figure>
+        <figure class="testi-card reveal">
+          <div class="stars" aria-hidden="true">★★★★★</div>
+          <blockquote>«El vuelo en parapente sobre la ría fue una pasada. Trato cercano desde la primera llamada hasta el último minuto.»</blockquote>
+          <figcaption>— Diego S., particular</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PACKS AHORRO ============ -->
+  <section class="section section-alt" id="packs">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">Ofertas</p>
+        <h2>Packs ahorro</h2>
+        <p class="section-lead">Combina varias actividades en un mismo día y ahorra frente a contratarlas por separado.</p>
+      </div>
+
+      <div class="pack-grid">
+        <div class="pack-card reveal">
+          <h3>Pack Tierra</h3>
+          <p class="pack-desc">Quads + Paintball + Gincana</p>
+          <ul class="pack-features">
+            <li>Grupos desde 6 personas</li>
+            <li>Equipo y seguros incluidos</li>
+            <li>Monitor durante toda la jornada</li>
+          </ul>
+          <a href="#contacto" class="btn btn-outline">Pedir información</a>
+        </div>
+
+        <div class="pack-card pack-card-featured reveal">
+          <span class="pack-badge">Más contratado</span>
+          <h3>Pack Despedida Completa</h3>
+          <p class="pack-desc">Actividad de aventura + transporte + restaurante + animación</p>
+          <ul class="pack-features">
+            <li>Diseño 100% a medida</li>
+            <li>Regalo especial para el novio/a</li>
+            <li>Un único interlocutor para todo</li>
+          </ul>
+          <a href="#contacto" class="btn btn-primary">Pedir información</a>
+        </div>
+
+        <div class="pack-card reveal">
+          <h3>Pack Mar y Aire</h3>
+          <p class="pack-desc">Rafting o kayak + Parapente biplaza</p>
+          <ul class="pack-features">
+            <li>Combina adrenalina y paisaje</li>
+            <li>Ideal para regalos originales</li>
+            <li>Fotos y vídeo de la experiencia</li>
+          </ul>
+          <a href="#contacto" class="btn btn-outline">Pedir información</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA FINAL ============ -->
+  <section class="cta-final">
+    <div class="container cta-final-inner reveal">
+      <h2>¿Listo para vivir tu próxima aventura?</h2>
+      <p>Cuéntanos qué tienes en mente y te preparamos una propuesta a medida sin compromiso.</p>
+      <div class="cta-final-actions">
+        <a href="tel:+34638918471" class="btn btn-primary btn-lg">Llamar ahora · 638 918 471</a>
+        <a href="https://wa.me/34638918471" target="_blank" rel="noopener" class="btn btn-ghost-light btn-lg">Escribir por WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACTO ============ -->
+  <section class="section" id="contacto">
+    <div class="container contact-grid">
+      <div class="contact-info reveal">
+        <p class="eyebrow">Contacto</p>
+        <h2>Cuéntanos tu idea de aventura</h2>
+        <p class="section-lead">Respondemos en menos de 24h con una propuesta personalizada.</p>
+
+        <ul class="contact-list">
+          <li>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 2 .7 3a2 2 0 0 1-.4 2.1L8 10.2a16 16 0 0 0 6 6l1.4-1.4a2 2 0 0 1 2-.5c1 .4 2 .6 3 .7a2 2 0 0 1 1.7 2z"/></svg>
+            <div><a href="tel:+34638918471">638 918 471</a><br><a href="tel:+34981265741">981 265 741</a></div>
+          </li>
+          <li>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z" opacity="0"/><path d="M3 6h18v12H3zM3 6l9 7 9-7"/></svg>
+            <div><a href="mailto:info@quadaventuras.com">info@quadaventuras.com</a></div>
+          </li>
+          <li>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 6.5-9 12-9 12s-9-5.5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div>C/ Manuel Azaña, 12-14, 4B<br>15011 A Coruña</div>
+          </li>
+          <li>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            <div>Lunes a viernes, 9-14h y 17-21h</div>
+          </li>
+        </ul>
+      </div>
+
+      <form class="contact-form reveal" id="contact-form">
+        <div class="form-row">
+          <label>
+            <span>Nombre</span>
+            <input type="text" name="nombre" required>
+          </label>
+          <label>
+            <span>Teléfono</span>
+            <input type="tel" name="telefono" required>
+          </label>
+        </div>
+        <label>
+          <span>Email</span>
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          <span>¿Qué actividad te interesa?</span>
+          <select name="actividad">
+            <option value="">Selecciona una opción</option>
+            <option>Despedida de soltero/a</option>
+            <option>Evento de empresa</option>
+            <option>Actividad para particulares</option>
+            <option>Ayuntamiento / institución</option>
+            <option>Otro</option>
+          </select>
+        </label>
+        <label>
+          <span>Cuéntanos más</span>
+          <textarea name="mensaje" rows="4" placeholder="Fecha aproximada, número de personas, ciudad..."></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary btn-lg btn-block">Enviar solicitud</button>
+        <p class="form-note" id="form-note" hidden>¡Gracias! Hemos recibido tu solicitud y te contactaremos muy pronto.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="#inicio" class="brand">
+        <img src="img/logo-quadaventuras.svg" alt="Quadaventuras" class="brand-logo">
+      </a>
+      <p>Actividades de ocio y turismo activo en Galicia por tierra, mar y aire.</p>
+      <div class="social-links">
+        <a href="#" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="M10 9.5l5 2.5-5 2.5z" fill="currentColor" stroke="none"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+        <a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 8h2V4h-2a4 4 0 0 0-4 4v3H9v4h2v7h4v-7h3l1-4h-4V8a1 1 0 0 1 1-1z"/></svg></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Actividades</h4>
+      <ul>
+        <li><a href="#actividades" data-filter="tierra">Tierra</a></li>
+        <li><a href="#actividades" data-filter="mar">Mar</a></li>
+        <li><a href="#actividades" data-filter="aire">Aire</a></li>
+        <li><a href="#despedidas">Despedidas</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Empresa</h4>
+      <ul>
+        <li><a href="#para-quien">Quiénes somos</a></li>
+        <li><a href="#para-quien">Eventos de empresa</a></li>
+        <li><a href="#packs">Packs ahorro</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contacto</h4>
+      <ul>
+        <li><a href="tel:+34638918471">638 918 471</a></li>
+        <li><a href="tel:+34981265741">981 265 741</a></li>
+        <li><a href="mailto:info@quadaventuras.com">info@quadaventuras.com</a></li>
+        <li>A Coruña, Galicia</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>© <span id="year"></span> Quadaventuras · CIF 32781131J · Turismo Activo</p>
+      <p><a href="#">Condiciones generales y política de privacidad</a></p>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/34638918471" target="_blank" rel="noopener" class="whatsapp-fab" aria-label="Escríbenos por WhatsApp">
+  <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.7.8-.8 1-.2.2-.3.2-.5.1-.2-.1-1-.4-1.9-1.2-.7-.6-1.2-1.4-1.3-1.6-.1-.2 0-.4.1-.5.1-.1.2-.3.4-.4.1-.2.2-.3.2-.5.1-.2 0-.4 0-.5-.1-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.2-1 1-1 2.3 0 1.4 1 2.7 1.1 2.9.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3z"/></svg>
+</a>
+
+<button class="back-to-top" id="back-to-top" aria-label="Volver arriba">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 260" width="440" height="260">
+  <defs>
+    <style>
+      .word-quad {
+        font-family: 'Baloo 2', 'Fredoka', 'Arial Rounded MT Bold', system-ui, sans-serif;
+        font-weight: 800;
+        font-size: 92px;
+        letter-spacing: -1px;
+      }
+      .word-aventuras {
+        font-family: 'Baloo 2', 'Fredoka', 'Arial Rounded MT Bold', system-ui, sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 40px;
+      }
+    </style>
+
+    <!-- arc path that "aventuras" rides along, echoing the original banner curve -->
+    <path id="arc" d="M 18 168 Q 150 230 300 176" fill="none"/>
+
+    <radialGradient id="sunGrad" cx="42%" cy="38%" r="65%">
+      <stop offset="0%" stop-color="#ffcf6b"/>
+      <stop offset="55%" stop-color="#f6a21e"/>
+      <stop offset="100%" stop-color="#e8790f"/>
+    </radialGradient>
+
+    <linearGradient id="quadFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a3e05f"/>
+      <stop offset="42%" stop-color="#7ec93c"/>
+      <stop offset="100%" stop-color="#4f9420"/>
+    </linearGradient>
+  </defs>
+
+  <!-- orange sun/badge with quad-and-riders silhouette -->
+  <g transform="translate(300,108)">
+    <circle r="86" fill="url(#sunGrad)" stroke="#1a1a1a" stroke-width="5"/>
+    <g transform="translate(-8,10) scale(1.05)" fill="#171512">
+      <!-- rear wheel -->
+      <circle cx="-46" cy="34" r="17" fill="none" stroke="#171512" stroke-width="8"/>
+      <!-- front wheel -->
+      <circle cx="40" cy="34" r="17" fill="none" stroke="#171512" stroke-width="8"/>
+      <!-- chassis -->
+      <path d="M -46 34 L -20 6 L 30 2 L 40 34" fill="none" stroke="#171512" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- handlebar -->
+      <path d="M 30 2 L 42 -14 M 22 -6 L 34 -20" stroke="#171512" stroke-width="7" stroke-linecap="round"/>
+      <!-- front rider -->
+      <circle cx="18" cy="-26" r="10" />
+      <path d="M 18 -16 C 10 -8 6 4 10 14 L 26 10 C 26 0 26 -8 24 -16 Z" />
+      <!-- rear rider (taller, sitting behind) -->
+      <circle cx="-14" cy="-34" r="10" />
+      <path d="M -14 -24 C -22 -14 -24 0 -18 12 L 0 8 C 0 -4 -2 -16 -6 -24 Z" />
+    </g>
+  </g>
+
+  <!-- QUAD wordmark -->
+  <g transform="translate(6,96)">
+    <text class="word-quad" x="0" y="0" fill="none" stroke="#173a12" stroke-width="10" stroke-linejoin="round">QUAD</text>
+    <text class="word-quad" x="0" y="0" fill="url(#quadFill)">QUAD</text>
+    <text class="word-quad" x="0" y="-4" fill="none" stroke="#e9ffd0" stroke-width="2.5" stroke-linejoin="round" opacity="0.75" clip-path="inset(0 0 46% 0)">QUAD</text>
+    <text x="248" y="-46" font-family="system-ui, sans-serif" font-weight="700" font-size="15" fill="#173a12">&#174;</text>
+  </g>
+
+  <!-- aventuras, arched under QUAD -->
+  <text class="word-aventuras" fill="none" stroke="#7a2c05" stroke-width="7" stroke-linejoin="round">
+    <textPath href="#arc" startOffset="2">aventuras</textPath>
+  </text>
+  <text class="word-aventuras" fill="#f7941e">
+    <textPath href="#arc" startOffset="2">aventuras</textPath>
+  </text>
+</svg>
