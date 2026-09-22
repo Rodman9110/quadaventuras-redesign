@@ -320,7 +320,10 @@ input, select, textarea { font: inherit; }
 .icon-mar { background: #e4f4f8; color: #0b6e91; }
 .icon-aire { background: #fff0e6; color: var(--brand-dark); }
 .activity-card h3 { font-size: 1.15rem; margin-bottom: 8px; }
-.activity-card p { color: var(--muted); font-size: .93rem; margin-bottom: 16px; }
+.activity-card p { color: var(--muted); font-size: .93rem; margin-bottom: 14px; }
+.activity-meta { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-bottom: 16px; }
+.activity-meta span { display: inline-flex; align-items: center; gap: 6px; font-size: .8rem; font-weight: 600; color: var(--ink); }
+.activity-meta svg { width: 15px; height: 15px; flex-shrink: 0; opacity: .6; }
 .tag { display: inline-block; font-size: .74rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
 .activity-more { margin-top: 36px; color: var(--muted); font-size: .95rem; }
 .activity-more a { color: var(--brand-dark); font-weight: 700; }
